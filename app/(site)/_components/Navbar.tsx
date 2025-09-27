@@ -15,7 +15,7 @@ export default function Navbar() {
         <Link href="/" className="flex items-center">
           {/* ⬇ 기존 동그라미 + 텍스트 제거하고 로고 이미지로 교체 */}
           <Image
-            src="/logo/jibsin2.png"
+            src="/logo/jibsin.png"
             alt="집신 Zibsin"
             width={45}           // 로고 폭은 여기서 조절(예: 120~160)
             height={30}
