@@ -17,7 +17,7 @@ export default function Navbar() {
           <Image
             src="/logo/jibsin.png"
             alt="집신 Zibsin"
-            width={45}           // 로고 폭은 여기서 조절(예: 120~160)
+            width={35}           // 로고 폭은 여기서 조절(예: 120~160)
             height={30}
             priority
           />
