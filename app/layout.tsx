@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     images: ["/og.png"],
     type: "website",
   },
+  icons: {
+    icon: [
+      { url: "/favicon.png", type: "image/png", sizes: "32x32" }, // 파비콘
+    ],
+    apple: [
+      { url: "/favicon.png", type: "image/png", sizes: "180x180" }, // iOS 홈화면
+    ],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
