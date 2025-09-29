@@ -23,13 +23,15 @@ export default function Hero() {
               {/* 로고 + '에게 맡기세요'를 같은 줄에 두되, 화면폭 좁으면 자동 줄바꿈 */}
               <span className="inline-flex items-center align-baseline gap-2">
                 <Image
-                  src="/logo/jibsin.png"
-                  alt="집신 로고"
-                  width={64}
-                  height={26}
-                  className="inline-block align-middle sm:w-[80px] sm:h-[32px] md:w-[96px] md:h-[38px]"
-                  priority
-                />
+  src="/logo/jibsin.png"
+  alt="집신 로고"
+  width={192}
+  height={60}
+  sizes="(min-width:1280px) 256px, (min-width:1024px) 192px, (min-width:640px) 160px, 128px"
+  className="inline-block align-middle h-8 sm:h-10 md:h-12 lg:h-24 w-auto"
+  priority
+/>
+
                 <span>에게 맡기세요</span>
               </span>
             </h1>
